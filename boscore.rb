@@ -16,7 +16,7 @@ class Boscore < Formula
    depends_on :arch =>  :intel
   
    bottle do
-      root_url "https://github.com/pursonchen/bos/releases/download/v2.0.2/bos-2.0.2.mojave.bottle.tar.gz"
+      root_url "https://github.com/pursonchen/bos/releases/download/v2.0.2/"
       sha256 "efdce89dbdfb5f672108f600e545aff72ea140544c7f2719a61e6f081fe27f90" => :mojave
    end
    def install
