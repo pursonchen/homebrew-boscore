@@ -16,8 +16,8 @@ class Boscore < Formula
    depends_on :arch =>  :intel
   
    bottle do
-      root_url "https://github.com/pursonchen/bos/releases/download/v2.0.2/bos-2.0.2.mojave.bottle.tar.gz      "
-      sha256 "efdce89dbdfb5f672108f600e545aff72ea140544c7f2719a61e6f081fe27f90" => :mojave
+      root_url "https://github.com/pursonchen/bos/releases/download/v2.0.2/bos-2.0.2.mojave.bottle.tar.gz"
+      sha256 "732370a452edd356c68a854b7efd017c2ce8cde7f77e3172ac1b35185bb2e632" => :mojave
    end
    def install
       raise "Error, only supporting binary packages at this time"
