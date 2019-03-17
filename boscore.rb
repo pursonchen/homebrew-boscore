@@ -17,7 +17,7 @@ class Boscore < Formula
   
    bottle do
       root_url "https://github.com/pursonchen/bos/releases/download/v2.0.2"
-      sha256 "efdce89dbdfb5f672108f600e545aff72ea140544c7f2719a61e6f081fe27f90" => :mojave
+      sha256 "00e7f33ded08ff9d1a5b144ea74546f3754b93a8337f20cbb688879893764cd9" => :mojave
    end
    def install
       raise "Error, only supporting binary packages at this time"
